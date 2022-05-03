@@ -1,0 +1,170 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background: linear-gradient(to right, black, rgb(53, 48, 48));
+    font-family: monospace;
+    
+}
+header h1
+{
+    text-align: center;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 60px;
+    margin: 0px;
+    padding: 5px;
+}
+nav
+{
+    font-size: 20px;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    transition-property: all 1s;
+}
+a:hover
+{
+    padding: 5px;
+    color: white;
+    transition: all 0.5s;
+    border: 4px black solid;
+    border-radius: 20px;
+}
+.background
+{
+    background-image: url("./images/pexels-andrea-piacquadio-905336.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    border-bottom: 10px orangered solid;
+}
+.form-for-registration
+{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    border: 3px orangered solid;
+    border-radius: 10px;
+    padding: 15px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 230px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"]
+{
+    width: 90%;
+    display: flex;
+}
+button
+{
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 3px orangered solid;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: orangered;
+}
+button:hover
+{
+    color: white;
+    transition: 0.5s all;
+}
+input
+{
+    border: 2px orangered solid;
+    border-radius: 5px;
+    margin: 20px;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.description
+{
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+}
+textarea
+{
+    margin: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px orangered solid;
+    border-radius: 5px;
+    width: 50vw;
+    height: 20vh;
+}
+.numbers
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 40px;
+}
+.info
+{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 5px orangered solid;
+    width: 80%;
+    position: relative;
+    left: 150px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.foot
+{
+    border-bottom: 10px orangered solid;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 20px;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+.copyright
+{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}

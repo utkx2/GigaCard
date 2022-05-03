@@ -1,0 +1,108 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background : linear-gradient(to right, black, rgb(53, 49, 49));
+    font-family: monospace;
+    
+}
+header h1
+{
+    text-align: center;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 60px;
+    margin: 0px;
+    padding: 5px;
+}
+nav
+{
+    font-size: 20px;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    transition-property: all 1s;
+}
+a:hover
+{
+    padding: 5px;
+    color: white;
+    transition: all 0.5s;
+    border: 4px black solid;
+    border-radius: 20px;
+}
+.final-registration
+{
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+    border: 3px orangered solid;
+    border-radius: 10px;
+    padding: 30px;
+    width: 92%;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"]
+{
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    border: 2px orangered solid;
+    border-radius: 20px;
+}
+button
+{
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 3px orangered solid;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: orangered;
+}
+button:hover
+{
+    color: white;
+    transition: 0.5s all;
+}
+.foot
+{
+    border-bottom: 10px orangered solid;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 20px;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+.copyright
+{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}

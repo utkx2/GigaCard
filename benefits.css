@@ -1,0 +1,137 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background: linear-gradient(to left, black, rgb(44, 41, 41));
+    font-family: monospace;
+    
+}
+header h1
+{
+    text-align: center;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 60px;
+    margin: 0px;
+    padding: 5px;
+}
+nav
+{
+    font-size: 20px;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    transition-property: all 1s;
+}
+a:hover
+{
+    padding: 5px;
+    color: white;
+    transition: 0.5s all;
+    border: 4px black solid;
+    border-radius: 20px;
+}
+.one
+{
+    background-image: url("./images/pexels-scott-webb-136404.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 175px;
+    color: white;
+    padding: 20px;
+}
+.two
+{
+    margin: 60px;
+    color: orangered;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+.form-for-registration
+{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    border: 3px orangered solid;
+    border-radius: 10px;
+    padding: 15px;
+    background-image: url("./images/pexels-sabel-blanco-1638324.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position-x: right;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"]
+{
+    width: 50%;
+    display: flex;
+}
+button
+{
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 3px orangered solid;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: orangered;
+}
+button:hover
+{
+    color: white;
+    transition: 0.5s all;
+}
+input
+{
+    border: 2px orangered solid;
+    border-radius: 5px;
+    margin: 20px;
+    height: 30px;
+    width: 500px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.foot
+{
+    border-bottom: 10px orangered solid;
+    background: linear-gradient(to left, red, orange);
+    background: linear-gradient(to right, red, orange);
+    font-size: 20px;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 40px;
+}
+.copyright
+{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
